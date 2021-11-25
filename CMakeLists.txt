@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
 project(las2pcd)
-find_package(PCL 1.3 REQUIRED COMPONENTS common io)
+find_package(PCL REQUIRED COMPONENTS common io)
 
 include_directories(${PCL_INCLUDE_DIRS})
 

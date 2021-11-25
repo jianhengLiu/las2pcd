@@ -23,8 +23,13 @@ Ubuntu installation:
 	
 	make
 	
-	mv las2pcd /usr/bin/
-
+```
+./las2pcd [las_file_path] [pcd_output_path/filename.pcd] [normalized coordinate?](0/1)
+```
+Example: 
+```
+./las2pcd ./urban27.las ./urban27.pcd 1
+```
 Change log:
 
 v0.1 (24 May 2017):
